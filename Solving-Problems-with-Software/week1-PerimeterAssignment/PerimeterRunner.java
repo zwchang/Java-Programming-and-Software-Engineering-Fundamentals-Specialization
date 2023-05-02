@@ -2,21 +2,16 @@ import edu.duke.*;
 import java.io.File;
 
 public class PerimeterRunner {
+
+    // Part one
     public double getPerimeter(Shape s) {
-        // Start with totalPerim = 0
         double totalPerim = 0.0;
-        // Start wth prevPt = the last point
         Point prevPt = s.getLastPoint();
-        // For each point currPt in the shape,
         for (Point currPt : s.getPoints()) {
-            // Find distance from prevPt point to currPt
             double currDist = prevPt.distance(currPt);
-            // Update totalPerim by currDist
             totalPerim = totalPerim + currDist;
-            // Update prevPt to be currPt
             prevPt = currPt;
         }
-        // totalPerim is the answer
         return totalPerim;
     }
 
@@ -34,6 +29,7 @@ public class PerimeterRunner {
         return averLen;
     }
 
+    // Part two
     public double getLargestSide(Shape s) {
         double currLargest = 0.0;
         Point prevPt = s.getLastPoint();
@@ -59,8 +55,8 @@ public class PerimeterRunner {
         return currLargX;
     }
 
+    // Part three
     public double getLargestPerimeterMultipleFiles() {
-        // Put code here
         double largestPeri = 0.0;
         DirectoryResource dr = new DirectoryResource();
         for (File f : dr.selectedFiles()) {
@@ -75,7 +71,6 @@ public class PerimeterRunner {
     }
 
     public String getFileWithLargestPerimeter() {
-        // Put code here
         File temp = null;
         double largestPeri = 0.0;
         DirectoryResource dr = new DirectoryResource();
@@ -107,7 +102,6 @@ public class PerimeterRunner {
     }
 
     public void testPerimeterMultipleFiles() {
-        // Put code here
         double largestPeri = getLargestPerimeterMultipleFiles();
         System.out.println("Largest Peri = " + largestPeri);
     }
