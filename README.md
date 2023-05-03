@@ -9,3 +9,6 @@ Here I gradually upload my solutions to the assignments of Java Programming and 
 * Week 3 - [CSV Export](/Solving-Problems-with-Software/week3-CSVExport)
 * Week 4 - [MiniProject: Baby names](/Solving-Problems-with-Software/week4-BabyNames)
 
+## Course 3: Array, List, and Structured Data
+
+* Week 1 - [CaesarCipher](/Array-List-and-Structured-Data/CaesarCipher)
