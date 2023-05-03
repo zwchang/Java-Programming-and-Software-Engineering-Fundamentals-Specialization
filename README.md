@@ -11,4 +11,4 @@ Here I gradually upload my solutions to the assignments of Java Programming and 
 
 ## Course 3: Array, List, and Structured Data
 
-* Week 1 - [CaesarCipher](/Array-List-and-Structured-Data/CaesarCipher)
+* Week 1 - [CaesarCipher](/Array-List-and-Structured-Data/week1-CaesarCipher)
