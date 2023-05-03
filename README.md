@@ -13,3 +13,5 @@ Here I gradually upload my solutions to the assignments of Java Programming and 
 
 * Week 1 - [CaesarCipher](/Array-List-and-Structured-Data/week1-CaesarCipher)
 * Week 2 - [Gladlibs](/Array-List-and-Structured-Data/week2-Gladlibs)
+* Week 3 - [WebServerLogs](/Array-List-and-Structured-Data/week3-WebServerLogs)
+* Week 4 - [VigenereCipher](/Array-List-and-Structured-Data/week4-VigenereCipher)
